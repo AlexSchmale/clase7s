@@ -1,0 +1,19 @@
+*{
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+a{
+    text-decoration: none;
+    border: 1px solid whitesmoke;
+}
+li{
+    list-style: none;
+}
+h1{
+    text-transform: uppercase;
+}
+section{
+    border: 1px solid whitesmoke;
+}

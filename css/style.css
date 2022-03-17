@@ -1,0 +1,64 @@
+*{
+    color: whitesmoke;
+}
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.fondoHeader{
+    background-image: url(../img/black.jpg);
+    background-size: cover;
+}
+.miFoto{
+    background-image: url(../img/miFoto.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 40%;
+    border: 1px solid white;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 140px;
+}
+header nav{
+    text-align: left;
+}
+
+.sinPunto a{
+    border: 1px solid whitesmoke;
+    font-size: 25px;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+}
+.titulo{
+    background-color: black;
+    font-size: 35px;
+    letter-spacing:29.68px;
+    text-align: center;
+    text-transform: uppercase;
+}
+article{
+    border: 1px solid whitesmoke;
+}
+.datosPersonales{
+    font-size: 20px;
+    letter-spacing: 16.94px;
+    text-transform: uppercase;
+}
+/* negrita datos personales */
+span{
+    font-weight: bold;
+}
+/* saco los puntos a las listas */
+.sinPunto{
+    list-style: none;
+}
+footer{
+    background-color:black;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
